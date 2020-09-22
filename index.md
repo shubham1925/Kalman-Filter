@@ -1,4 +1,17 @@
-## Welcome to GitHub Pages
+## Mini Project 1
+
+Team Members:
+
+Raj Shinde (M.Eng. Robotics)
+
+Shubham Sonawane (M.Eng. Robotics)
+
+### Introduction to Kalman Filters
+
+Powerful tool for combining information in presence of information uncertainty. It can be used in any place where the information about the system is uncertain, and make an educated guess about what the system will do in the next time step. 
+Ideal for systems that are continuously changing. Speed is an advantage, makes them very fast on embedded systems and real time problems. 
+
+
 
 You can use the [editor on GitHub](https://github.com/shubham1925/Kalman-Filter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
