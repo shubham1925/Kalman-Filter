@@ -2,16 +2,31 @@
 
 Team Members:
 
-Raj Shinde (M.Eng. Robotics)
+Raj Shinde (M.Eng. Robotics) - 
 
-Shubham Sonawane (M.Eng. Robotics)
+Shubham Sonawane (M.Eng. Robotics) - 116808996
 
 ### Introduction to Kalman Filters
 
-Powerful tool for combining information in presence of information uncertainty. It can be used in any place where the information about the system is uncertain, and make an educated guess about what the system will do in the next time step. 
-Ideal for systems that are continuously changing. Speed is an advantage, makes them very fast on embedded systems and real time problems. 
+Kalman filter is a powerful tool for combining information in presence of information uncertainty. It can be used in any place where the information about the system is uncertain. It is used to make an educated guess of what the system will do in the next time-step.
 
+Kalman filter is an ideal tool for systems that are continuously changing. The simple calculations involved means that the speed is an advantage, making it an ideal candidate for real-time systems to be implemented on embedded platform.  
 
+### Mathematical Definition
+
+### Key Results
+
+### Application in decision making for robots
+
+### Variants
+
+Extended Kalman Filter
+
+Unscented Kalman Filter
+
+### Open research problems
+
+### References
 
 You can use the [editor on GitHub](https://github.com/shubham1925/Kalman-Filter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
