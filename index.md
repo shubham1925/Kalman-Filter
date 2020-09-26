@@ -14,7 +14,7 @@ Kalman filter is an ideal tool for systems that are continuously changing. The s
 
 ### Mathematical Definition
 
-![] (https://shubham1925.github.io/Kalman-Filter/BlockDiagram.png)
+![BlockDiagram](img/BlockDiagram.png)
 
 ### Key Results
 
