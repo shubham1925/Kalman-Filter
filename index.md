@@ -14,6 +14,8 @@ Kalman filter is an ideal tool for systems that are continuously changing. The s
 
 ### Mathematical Definition
 
+![Image description](https://github.com/shubham1925/Kalman-Filter/blob/gh-pages/BlockDiagram.png)
+
 ### Key Results
 
 ### Application in decision making for robots
