@@ -15,6 +15,13 @@ Kalman filter is an ideal tool for systems that are continuously changing. The s
 ### Mathematical Definition
 
 ![BlockDiagram](img/BlockDiagram.png)
+![Equations](img/equations.PNG)
+
+Kalman filter operates in 2 stages, time update and measurement update. 
+
+1.	Time update: Before starting the iterations for Kalman filter, it is necessary to enter the estimate of the state variable vector and the error covariance matrix. The time update activity involves 2 primary equations. (1) calculates the a priori estimate of the state variable vector. This is the estimate of the state at given time step k when the system measurements upto time step k-1 are known. (2) updates the error covariance matrix P. 
+
+2.	Measurement update: (3) calculates the Kalman gain K which is helps in reducing the error covariance matrix P. (4) calculates the estimate of the state at time k given measurement data upto time k. (5) calculates the error covariance matrix P (posteriori)
 
 ### Key Results
 
