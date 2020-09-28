@@ -12,9 +12,26 @@ Kalman filter is a powerful tool for combining information in presence of inform
 
 Kalman filter is an ideal tool for systems that are continuously changing. The simple calculations involved means that the speed is an advantage, making it an ideal candidate for real-time systems to be implemented on embedded platform.  
 
-### Mathematical Definition
+### Formal Definition
+
+The Kalman filter requires the following information to run its algorithm:
+
+1.	Model of the system in state space(A,B,C matrices)
+2.	Input of each time step
+3.	Sensor measurements
+4.	Initial system state and covariance (the initial state is the best estimate of the starting point, and it is a good practice to have a large covariance matrix initially)
+5.	Measurement noise covariance, which is usually calculated offline by taking a sensor and comparing it against a known value. 
+6.	Model/input covariance, it is used as a tuning mechanism to optimize the filter performance. 
+
+The Kalman filter follows a predict-update cycle to arrive at a state measurement. The process can be summed up as follows:
 
 ![BlockDiagram](img/BlockDiagram.png)
+
+The conditions under which the Kalman filter is known to produce optimal results are:
+1.	The input noise and sensor noise are independent , and uncorrelated in time with each other
+2.	The input noise and measurement noise both follow gaussian distribution. 
+3.	System is linear.
+
 ![Equations](img/equations.PNG)
 
 Kalman filter operates in 2 stages, time update and measurement update. 
