@@ -44,6 +44,8 @@ Kalman filter operates in 2 stages, time update and measurement update.
 
 ### Application in decision making for robots
 
+Kalman filters are useful in robot localization, where landmarks are known but the robot position isn’t. If the robot position is calculated using trigonometry and sensor inputs or by dead-reckoning, then it may seem like the robot is jumping around the area. Kalman filter is better in such applications, as it models the uncertainty of the sensor measurements as well. 
+
 ### Variants
 
 Extended Kalman Filter
