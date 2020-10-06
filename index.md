@@ -60,6 +60,8 @@ Unscented Kalman Filter
 
 ### Open research problems
 
+Although Kalman filters are being widely used in various domains, the problem of selecting the optimal initial values still remains. The process noise covariance matrix has a significant impact on the value predicted by the Kalman Filter. However, the process developed for estimating the initial value of covariance matrix does not work as desired for non-linear or complex systems. Therefore, researchers have developed an adaptive Kalman Filter based on reinforcement learning, which addresses this problem. 
+
 ### References
 
 S. Y. Chen, "Kalman Filter for Robot Vision: A Survey," in IEEE Transactions on Industrial Electronics, vol. 59, no. 11, pp. 4409-4420, Nov. 2012, doi: 10.1109/TIE.2011.2162714.
