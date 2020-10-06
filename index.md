@@ -55,7 +55,7 @@ Kalman filters are useful in robot localization, where landmarks are known but t
 
 Extended Kalman Filter-
 
-Extended kalman fIlter is brought into action when the system to be worked on is nonlinear. In EKF, the nonlinear system is translated into a system of linear equations using multivariate taylor series expansion. This linearization is done around the current model estimate, and the multiple variables are used to form the Jacobian. These Jacobian matrices for each current state are’then used in the Kalman filter equations to compute the next estimate. 
+Extended kalman filter is brought into action when the system to be worked on is nonlinear. In EKF, the nonlinear system is translated into a system of linear equations using multivariate taylor series expansion. This linearization is done around the current model estimate, and the multiple variables are used to form the Jacobian. These Jacobian matrices for each current state are’then used in the Kalman filter equations to compute the next estimate. 
 
 Unscented Kalman Filter-
 
