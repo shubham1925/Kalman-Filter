@@ -12,6 +12,8 @@ Kalman filter is a powerful tool for combining information in presence of inform
 
 Kalman filter is an ideal tool for systems that are continuously changing. The simple calculations involved means that the speed is an advantage, making it an ideal candidate for real-time systems to be implemented on embedded platform.  
 
+Since Kalman filters work recursively, they do not need the complete history of the system, only the information from previous time step is required. 
+
 ### Formal Definition
 
 The Kalman filter requires the following information to run its algorithm:
@@ -23,7 +25,7 @@ The Kalman filter requires the following information to run its algorithm:
 5.	Measurement noise covariance, which is usually calculated offline by taking a sensor and comparing it against a known value. 
 6.	Model/input covariance, it is used as a tuning mechanism to optimize the filter performance. 
 
-The Kalman filter follows a predict-update cycle to arrive at a state measurement. The process can be summed up as follows:
+The Kalman filter follows a predict-update cycle to arrive at a state measurement. In the prediction phase, the state estimate at the previous timestep is used to make an estimate of the state at the current timestep. However, the state calculated in this step does not account for the sensor measurements or information from the current time step. In the update state, the state estimate from the previous step and the sensor measurements are combined, which improves the state estimate. 
 
 ![BlockDiagram](img/BlockDiagram.png)
 
