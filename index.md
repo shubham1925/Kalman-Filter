@@ -56,11 +56,11 @@ Kalman filters are useful in robot localization, where landmarks are known but t
 
 ### Variants
 
-Extended Kalman Filter-
+**Extended Kalman Filter**-
 
 Extended kalman filter is brought into action when the system to be worked on is nonlinear. In EKF, the nonlinear system is translated into a system of linear equations using multivariate taylor series expansion. This linearization is done around the current model estimate, and the multiple variables are used to form the Jacobian. These Jacobian matrices for each current state are’then used in the Kalman filter equations to compute the next estimate. 
 
-Unscented Kalman Filter-
+**Unscented Kalman Filter**-
 
 The Unscented Kalman Filter(UKF) unlike EKF uses a deterministic sampling approach instead of calculus technique like taylor series expansion. The deterministic sampling in UKF is used to choose points from source gaussian distribution, which are called as sigma points. These sigma points are  passed through the non linear function and then are used to calculate the new mean and variance for next estimate. In short, the current gaussian is mapped to a new approximation by passing it shough the non linear equations. More the number the sigma points, more is the precision, but is also increases the computation time.
 
