@@ -56,7 +56,7 @@ Kalman Filter is used in a variety of systems for tracking, trajectory predictio
 
 In robot localization, the landmarks or the environment features are known but the robot position isn’t. If the robot position is calculated using trigonometry and sensor inputs or by dead-reckoning, then it may seem like the robot is jumping around the area. Kalman filter is better in such applications, as it models the uncertainty of the sensor measurements as well. 
 
-![CarKF](img/car_kf.png?style=centerme)
+![CarKF](img/cak_kf.png)
 
 ### Variants
 
