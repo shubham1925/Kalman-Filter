@@ -30,7 +30,7 @@ The Kalman filter follows a predict-update cycle to arrive at a state measuremen
 ![BlockDiagram](img/BlockDiagram.png)
 
 <p align="center">
-  <img src=https://github.com/shubham1925/Kalman-Filter/blob/gh-pages/img/BlockDiagram.png alt="Sublime's custom image"/>
+  <img src="https://github.com/shubham1925/Kalman-Filter/blob/gh-pages/img/BlockDiagram.png" alt="Sublime's custom image"/>
 </p>
 
 
