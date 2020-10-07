@@ -1,6 +1,6 @@
 ## Mini Project 1
 
-Team Members:
+**Team Members:**
 
 Raj Shinde (M.Eng. Robotics) - 116852104
 
