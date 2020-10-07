@@ -48,6 +48,9 @@ Kalman filter operates in 2 stages, time update and measurement update.
 ### Key Results
 
 ### Application in decision making for robots
+Since decision making is a process of taking actions based on the current and the goal state. It becomes necessary to know the current state of the system. Kalman filters can be helpful here, when the current state of the robot is not precisely known. [1] Best shows how a kalman filter based algorithm assists a POMDP.
+
+### Overview of the important applications
 
 Kalman filters are useful in robot localization, where landmarks are known but the robot position isn’t. If the robot position is calculated using trigonometry and sensor inputs or by dead-reckoning, then it may seem like the robot is jumping around the area. Kalman filter is better in such applications, as it models the uncertainty of the sensor measurements as well. 
 
@@ -70,9 +73,11 @@ Summing it all, We use Kalman filters as an estimator for a linear system. But a
 Although Kalman filters are being widely used in various domains, the problem of selecting the optimal initial values still remains. The process noise covariance matrix has a significant impact on the value predicted by the Kalman Filter. However, the process developed for estimating the initial value of covariance matrix does not work as desired for non-linear or complex systems. Therefore, researchers have developed an adaptive Kalman Filter based on reinforcement learning, which addresses this problem. 
 
 ### References
+[1]  1. Sardag A, Akin HL. Kalman Based Finite State Controller for Partially Observable Domains. International Journal of Advanced Robotic Systems. December 2006. doi:10.5772/5723
+  
 
-S. Y. Chen, "Kalman Filter for Robot Vision: A Survey," in IEEE Transactions on Industrial Electronics, vol. 59, no. 11, pp. 4409-4420, Nov. 2012, doi: 10.1109/TIE.2011.2162714.
+[2]  S. Y. Chen, "Kalman Filter for Robot Vision: A Survey," in IEEE Transactions on Industrial Electronics, vol. 59, no. 11, pp. 4409-4420, Nov. 2012, doi: 10.1109/TIE.2011.2162714.
 
-“Deep Robust Kalman Filter” S.D. Shashua, S. Mannor, Mar. 2017
+[3]  “Deep Robust Kalman Filter” S.D. Shashua, S. Mannor, Mar. 2017
 
-https://towardsdatascience.com/the-unscented-kalman-filter-anything-ekf-can-do-i-can-do-it-better-ce7c773cf88d#:~:text=Basic%20Difference%20between%20EKF%20and,precise%20our%20approximation%20will%20be!
+[4]  https://towardsdatascience.com/the-unscented-kalman-filter-anything-ekf-can-do-i-can-do-it-better-ce7c773cf88d#:~:text=Basic%20Difference%20between%20EKF%20and,precise%20our%20approximation%20will%20be!
