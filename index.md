@@ -64,7 +64,7 @@ Unscented Kalman Filter-
 
 The Unscented Kalman Filter(UKF) unlike EKF uses a deterministic sampling approach instead of calculus technique like taylor series expansion. The deterministic sampling in UKF is used to choose points from source gaussian distribution, which are called as sigma points. These sigma points are  passed through the non linear function and then are used to calculate the new mean and variance for next estimate. In short, the current gaussian is mapped to a new approximation by passing it shough the non linear equations. More the number the sigma points, more is the precision, but is also increases the computation time.
 
-<center>![UKF](img/UKF.PNG)</center>
+![UKF](img/UKF.PNG)
 
 Summing it all, We use Kalman filters as an estimator for a linear system. But as we start dealing with nonlinear systems, we use EKF and UKF. Especially UKF when we want more precision and performance optimization. 
 
