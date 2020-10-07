@@ -27,7 +27,7 @@ The Kalman filter requires the following information to run its algorithm:
 
 The Kalman filter follows a predict-update cycle to arrive at a state measurement. In the prediction phase, the state estimate at the previous timestep is used to make an estimate of the state at the current timestep. However, the state calculated in this step does not account for the sensor measurements or information from the current time step. In the update state, the state estimate from the previous step and the sensor measurements are combined, which improves the state estimate. 
 
-![BlockDiagram](img/BlockDiagram.png)
+![BlockDiagram](img/BlockDiagram.png?style=centerme)
 
 
 The conditions under which the Kalman filter is known to produce optimal results are:
