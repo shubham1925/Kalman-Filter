@@ -29,10 +29,6 @@ The Kalman filter follows a predict-update cycle to arrive at a state measuremen
 
 ![BlockDiagram](img/BlockDiagram.png)
 
-<p align="center">
-  <img src="https://github.com/shubham1925/Kalman-Filter/blob/gh-pages/img/BlockDiagram.png" alt="Sublime's custom image"/>
-</p>
-
 
 The conditions under which the Kalman filter is known to produce optimal results are:
 1.	The input noise and sensor noise are independent , and uncorrelated in time with each other
