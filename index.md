@@ -25,7 +25,7 @@ The Kalman filter requires the following information to run its algorithm:
 5.	Measurement noise covariance, which is usually calculated offline by taking a sensor and comparing it against a known value. 
 6.	Model/input covariance, it is used as a tuning mechanism to optimize the filter performance. 
 
-The Kalman filter follows a predict-update cycle to arrive at a state measurement. In the prediction phase, the state estimate at the previous timestep is used to make an estimate of the state at the current timestep. However, the state calculated in this step does not account for the sensor measurements or information from the current time step. In the update state, the state estimate from the previous step and the sensor measurements are combined, which improves the state estimate. 
+The Kalman filter follows a predict-update cycle to arrive at a state measurement. In the prediction phase, the state estimate at the previous timestep is used to make an estimate of the state at the current timestep. However, the state calculated in this step does not account for the sensor measurements or information from the current time step. In the update state, the state estimate from the previous step and the sensor measurements are combined, which improves the state estimate. The block diagram below sums up the process:
 
 ![BlockDiagram](img/BlockDiagram.png?style=centerme)
 
