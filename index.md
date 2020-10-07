@@ -46,8 +46,6 @@ Kalman filter operates in 2 stages, time update and measurement update.
 
 2.	Measurement update: (3) calculates the Kalman gain K, denoted here by J which helps in reducing the error covariance matrix P. (4) calculates the estimate of the state at time k given measurement data upto time k. (5) calculates the error covariance matrix P (posteriori)
 
-### Key Results
-
 ### Application in decision making for robots
 Since decision making is a process of taking actions based on the current and the goal state. It becomes necessary to know the current state of the system. Kalman filters can be helpful here, when the current state of the robot is not precisely known. [1] Best shows how a kalman filter based algorithm assists a POMDP.
 
