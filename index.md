@@ -57,7 +57,9 @@ Since decision making is a process of taking actions based on the current and th
 
 ### Overview of the important applications
 
-Kalman filters are useful in robot localization, where landmarks are known but the robot position isn’t. If the robot position is calculated using trigonometry and sensor inputs or by dead-reckoning, then it may seem like the robot is jumping around the area. Kalman filter is better in such applications, as it models the uncertainty of the sensor measurements as well. 
+Kalman Filter is used in a variety of systems for tracking, trajectory prediction, perception and many more. One of the most important applications of Kalman Filter is the Localization in Robotics.
+
+In robot localization, the landmarks or the environment features are known but the robot position isn’t. If the robot position is calculated using trigonometry and sensor inputs or by dead-reckoning, then it may seem like the robot is jumping around the area. Kalman filter is better in such applications, as it models the uncertainty of the sensor measurements as well. 
 
 ### Variants
 
