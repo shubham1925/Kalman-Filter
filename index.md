@@ -71,10 +71,10 @@ Summing it all, We use Kalman filters as an estimator for a linear system. But a
 
 ### Open research problems
 
-Although Kalman filters are being widely used in various domains, the problem of selecting the optimal initial values still remains. The process noise covariance matrix has a significant impact on the value predicted by the Kalman Filter. However, the process developed for estimating the initial value of covariance matrix does not work as desired for non-linear or complex systems. Therefore, researchers have developed an adaptive Kalman Filter based on reinforcement learning, which addresses this problem. 
+Although Kalman filters are being widely used in various domains, the problem of selecting the optimal initial values still remains [5]. The process noise covariance matrix has a significant impact on the value predicted by the Kalman Filter. However, the process developed for estimating the initial value of covariance matrix does not work as desired for non-linear or complex systems. Therefore, researchers have developed an adaptive Kalman Filter based on reinforcement learning, which addresses this problem. 
 
 ### References
-[1]  1. Sardag A, Akin HL. Kalman Based Finite State Controller for Partially Observable Domains. International Journal of Advanced Robotic Systems. December 2006. doi:10.5772/5723
+[1]  Sardag A, Akin HL. Kalman Based Finite State Controller for Partially Observable Domains. International Journal of Advanced Robotic Systems. December 2006. doi:10.5772/5723
   
 
 [2]  S. Y. Chen, "Kalman Filter for Robot Vision: A Survey," in IEEE Transactions on Industrial Electronics, vol. 59, no. 11, pp. 4409-4420, Nov. 2012, doi: 10.1109/TIE.2011.2162714.
@@ -82,3 +82,5 @@ Although Kalman filters are being widely used in various domains, the problem of
 [3]  “Deep Robust Kalman Filter” S.D. Shashua, S. Mannor, Mar. 2017
 
 [4]  https://towardsdatascience.com/the-unscented-kalman-filter-anything-ekf-can-do-i-can-do-it-better-ce7c773cf88d#:~:text=Basic%20Difference%20between%20EKF%20and,precise%20our%20approximation%20will%20be!
+
+[5] He Song, Shaolin Hu , “Open Problems in Applications of the Kalman Filtering Algorithm”, doi: https://doi.org/10.2991/mbdasm-19.2019.43
