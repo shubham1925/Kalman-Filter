@@ -35,7 +35,7 @@ The conditions under which the Kalman filter is known to produce optimal results
 2.	The input noise and measurement noise both follow gaussian distribution. 
 3.	System is linear.
 
-![Equations](img/equations.PNG)
+![Equations](img/equations.PNG?style=centerme)
 
 In the above equations, Q is the model/input noise covariance matrix. R denotes the measurement noise covariance matrix. J is the gain matrix. Matrices A, B and C are 
 obtained from the state space representation of the system. 
